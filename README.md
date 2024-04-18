@@ -8,14 +8,15 @@ To get started with this project, simply clone the repository and open the index
 bash Edit Run Full Screen Copy code git clone https://github.com/PrincyPatel30/airbnb-clone cd airbnb-clone open index.html
 
 Built With:
-![web_snippet1](https://github.com/PrincyPatel30/airbnb-clone/assets/94431763/4c453180-3107-48cb-9051-927768b0d7e2)
-![web_snippet](https://github.com/PrincyPatel30/airbnb-clone/assets/94431763/da992233-6c1f-45bc-a36e-29cf75d0b8d3)
-
 HTML5
 Tailwind CSS
 Bootstrap
 Utility Classes:
 We made use of Bootstrap's utility classes to quickly and easily style our HTML elements.
+
+![web_snippet1](https://github.com/PrincyPatel30/airbnb-clone/assets/94431763/4c453180-3107-48cb-9051-927768b0d7e2)
+
+![web_snippet](https://github.com/PrincyPatel30/airbnb-clone/assets/94431763/da992233-6c1f-45bc-a36e-29cf75d0b8d3)
 
 Responsive Design:
 We used Tailwind CSS's responsive design utilities to ensure that our layout looked great on all device sizes.
