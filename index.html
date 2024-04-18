@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="body.css">
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>airbnb clone</title>
+</head>
+<header>
+    <div class="grid grid-cols-3 items-center pt-4 px-16 w-screen h-20 items-center" >
+        <img src="airbnb.png" alt="" class="h-8 w-26"/>
+        <div class="flex justify-evenly items-center" style="margin-right: 8px;">
+            <button class="text-m" style="font-size: 17px;font-weight:600;">Stays</button>
+            <button class="text-m text-gray-500" style="font-size: 17px; margin-right:30px;">Experiences</button>
+            <button class="text-m text-gray-500" style="font-size: 17px;margin-left :-50px;">Online Experiences</button>
+        </div>
+        <div class="flex justify-end items-center gap-6" style="margin-right:14px;">
+            <button class="text-[15px]" style="font-weight:550;">Airbnb your home</button>
+            <button type="button" class="tool" aria-expanded="false">
+                <div class="tool2">
+                    <div class="tool3">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 16px; width: 16px; fill: currentcolor;">
+                            <path d="M8 .25a7.77 7.77 0 0 1 7.75 7.78 7.75 7.75 0 0 1-7.52 7.72h-.25A7.75 7.75 0 0 1 .25 8.24v-.25A7.75 7.75 0 0 1 8 .25zm1.95 8.5h-3.9c.15 2.9 1.17 5.34 1.88 5.5H8c.68 0 1.72-2.37 1.93-5.23zm4.26 0h-2.76c-.09 1.96-.53 3.78-1.18 5.08A6.26 6.26 0 0 0 14.17 9zm-9.67 0H1.8a6.26 6.26 0 0 0 3.94 5.08 12.59 12.59 0 0 1-1.16-4.7l-.03-.38zm1.2-6.58-.12.05a6.26 6.26 0 0 0-3.83 5.03h2.75c.09-1.83.48-3.54 1.06-4.81zm2.25-.42c-.7 0-1.78 2.51-1.94 5.5h3.9c-.15-2.9-1.18-5.34-1.89-5.5h-.07zm2.28.43.03.05a12.95 12.95 0 0 1 1.15 5.02h2.75a6.28 6.28 0 0 0-3.93-5.07z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </button>
+            <div class="flex justify-around rounded-full border">
+                <div class="flex justify-center items-center rounded-full border" style="padding: 12px;">
+                    <i class="fa-solid fa-bars" style="width: 30px ; padding-left: 4px;"></i>
+                    <span class="material-symbols-outlined" style="font-size: 25px; color: rgb(58, 58, 58);"> account_circle</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid grid-cols-3 items-center pt-4 px-16" style="margin-left: 15px;">
+        <div class="col-span-3 md:col-start-1 md:col-span-4  flex justify-evenly items-center border rounded-full shadow-md h-16 w-212 mt-8 md:mt-0" style= "margin-right : 280px;margin-left : 260px; margin-top : 2px;">
+            <button class="border-r-2 text-sm px-2" style="font-weight:500;">where</button>
+            <button class="border-r-2 text-sm px-4" style="font-weight:500;">check-in</button>
+            <button class="border-r-2 text-sm  px-2" style="font-weight:500;">check-out</button>
+            <button class="px-4 py-2" style="font-weight:500;">who?</button>
+            <i class="fa-solid fa-magnifying-glass bg-red-500 text-white rounded-full p-2"></i>
+        </div>
+    </div>
+</header>
+<br>
+<hr>
+
+<div class=" flex items-center h-24 space-x-8 border-b-[1px]">
+    <div class = "flex items-center justify-center space-x-10 ">
+        <div class = "flex flex-col items-center text-gray-400 hover:text-black gap-2 pl-16">
+            <img src="\static\beach.jpg " class = "h-6 w-6">
+            <p class = "text-xs font-normal">beach</p>
+        </div>
+        <div class = "flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="\static\amazingpools.jpg " class = "h-6 w-6">
+            <p class = "text-xs font-normal"> pools</p>
+        </div>
+        <div class = "flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="\static\amazingview.jpg " class = "h-6 w-6">
+            <p class = "text-xs font-normal">amazing view</p>
+        </div>
+        <div class = "flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="\static\bedbreakfast.jpg " class = "h-6 w-6">
+            <p class = "text-xs font-normal">beds</p>
+        </div>
+        <div class = "flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="\static\camping.jpg " class = "h-6 w-6">
+            <p class = "text-xs font-normal">campin</p>
+        </div>
+        <div class = "flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="\static\cave.jpg " class = "h-6 w-6">
+            <p class = "text-xs font-normal">cave</p>
+        </div>
+        <div class = "flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="\static\islands.jpg " class = "h-6 w-6">
+            <p class = "text-xs font-normal">islands</p>
+        </div>
+        <div class = "flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="\static\lake.jpg " class = "h-6 w-6">
+            <p class = "text-xs font-normal">lake</p>
+        </div>
+        <div class = "flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="\static\rooms.jpg " class = "h-6 w-6">
+            <p class = "text-xs font-normal">rooms</p>
+        </div>
+        <div class = "flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="\static\topofmountain.jpg" class = "h-6 w-6">
+            <p class = "text-xs font-normal">mountains</p>
+        </div>
+        <div class = "flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="\static\tropical.jpg " class = "h-6 w-6">
+            <p class = "text-xs font-normal">tropical</p>
+        </div>
+
+
+
+
+    </div>
+    <span class="material-symbols-outlined pl-4"> arrow_circle_right </span>
+        <div class = "flex justify-around items-center rounded-xl h-12 w-24 border">
+            <span class="material-symbols-outlined pl-2" >tune</span>
+                <p class = "text-xs font-medium pr-2">filters</p>
+         </div>
+         <div>
+            <div class = "flex justify-around items-center rounded-xl h-12 w-96 border">
+                <p class = "text-xs font-medium pr-4 pl-10">display total before taxes</p>
+                <span class="material-symbols-outlined pr-4 " >toggle_on</span>                 
+         </div>
+
+</div>
+</div>
+</header>
+
+<main class="mt-14 mx-10">
+    <div class="grid grid-cols-4">
+        <div class = "flex flex-col h-96 w-72">
+            <img src = \static\h1.webp class = "w-72 h-64 rounded-xl">
+            <div class="flex justify-between mt-2">
+                <p class="text-sm font-medium">Lonavala, India</p>
+                <div class="flex ">
+                <i class="fa-solid fa-star"></i>
+                <p class="text-sm font-light">4.5</p>
+            </div>
+            </div>
+            <p class="text-sm text-gray-400">102 km away</p>
+            <p class="text-sm text-gray-400">30 june- 2sep</p>
+            <p class="text-sm font-medium mt-2">₹11,000 per night</p>
+        </div>
+        <div class = "flex flex-col h-96 w-72">
+            <img src = \static\h2.webp class = "w-72 h-64 rounded-xl">
+            <div class="flex justify-between mt-2">
+                <p class="text-sm font-medium">Lonavala, India</p>
+                <div class="flex ">
+                <i class="fa-solid fa-star"></i>
+                <p class="text-sm font-light">4.5</p>
+            </div>
+            </div>
+            <p class="text-sm text-gray-400">102 km away</p>
+            <p class="text-sm text-gray-400">30 june- 2sep</p>
+            <p class="text-sm font-medium mt-2">₹11,000 per night</p>
+        </div>
+        <div class = "flex flex-col h-96 w-72">
+            <img src = \static\h3.webp class = "w-72 h-64 rounded-xl">
+            <div class="flex justify-between mt-2">
+                <p class="text-sm font-medium">Lonavala, India</p>
+                <div class="flex ">
+                <i class="fa-solid fa-star"></i>
+                <p class="text-sm font-light">4.5</p>
+            </div>
+            </div>
+            <p class="text-sm text-gray-400">102 km away</p>
+            <p class="text-sm text-gray-400">30 june- 2sep</p>
+            <p class="text-sm font-medium mt-2">₹11,000 per night</p>
+        </div>
+        <div class = "flex flex-col h-96 w-72">
+            <img src = \static\h4.webp class = "w-72 h-64 rounded-xl">
+            <div class="flex justify-between mt-2">
+                <p class="text-sm font-medium">Lonavala, India</p>
+                <div class="flex ">
+                <i class="fa-solid fa-star"></i>
+                <p class="text-sm font-light">4.5</p>
+            </div>
+            </div>
+            <p class="text-sm text-gray-400">102 km away</p>
+            <p class="text-sm text-gray-400">30 june- 2sep</p>
+            <p class="text-sm font-medium mt-2">₹11,000 per night</p>
+        </div>
+        <div class = "flex flex-col h-96 w-72">
+            <img src = \static\h1.webp class = "w-72 h-64 rounded-xl">
+            <div class="flex justify-between mt-2">
+                <p class="text-sm font-medium">Lonavala, India</p>
+                <div class="flex ">
+                <i class="fa-solid fa-star"></i>
+                <p class="text-sm font-light">4.5</p>
+            </div>
+            </div>
+            <p class="text-sm text-gray-400">102 km away</p>
+            <p class="text-sm text-gray-400">30 june- 2sep</p>
+            <p class="text-sm font-medium mt-2">₹11,000 per night</p>
+        </div>
+        <div class = "flex flex-col h-96 w-72">
+            <img src = \static\h2.webp class = "w-72 h-64 rounded-xl">
+            <div class="flex justify-between mt-2">
+                <p class="text-sm font-medium">Lonavala, India</p>
+                <div class="flex ">
+                <i class="fa-solid fa-star"></i>
+                <p class="text-sm font-light">4.5</p>
+            </div>
+            </div>
+            <p class="text-sm text-gray-400">102 km away</p>
+            <p class="text-sm text-gray-400">30 june- 2sep</p>
+            <p class="text-sm font-medium mt-2">₹11,000 per night</p>
+        </div>
+        <div class = "flex flex-col h-96 w-72">
+            <img src = \static\h3.webp class = "w-72 h-64 rounded-xl">
+            <div class="flex justify-between mt-2">
+                <p class="text-sm font-medium">Lonavala, India</p>
+                <div class="flex ">
+                <i class="fa-solid fa-star"></i>
+                <p class="text-sm font-light">4.5</p>
+            </div>
+            </div>
+            <p class="text-sm text-gray-400">102 km away</p>
+            <p class="text-sm text-gray-400">30 june- 2sep</p>
+            <p class="text-sm font-medium mt-2">₹11,000 per night</p>
+        </div>
+        <div class = "flex flex-col h-96 w-72">
+            <img src = \static\h4.webp class = "w-72 h-72 rounded-xl">
+            <div class="flex justify-between mt-2">
+                <p class="text-sm font-medium">Lonavala, India</p>
+                <div class="flex ">
+                <i class="fa-solid fa-star"></i>
+                <p class="text-sm font-light">4.5</p>
+            </div>
+            </div>
+            <p class="text-sm text-gray-400">102 km away</p>
+            <p class="text-sm text-gray-400">30 june- 2sep</p>
+            <p class="text-sm font-medium mt-2">₹11,000 per night</p>
+        </div>
+    </div>
+
+</main>
+<footer>
+</footer>
+</html>
