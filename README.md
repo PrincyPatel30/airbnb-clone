@@ -1,4 +1,4 @@
-airbnb-clone:--
+airbnb-clone PRINCY:--
 This project is a clone of Airbnb's homepage, built using HTML5, Tailwind CSS, and Bootstrap. The goal was to create a clean and responsive layout that matches the design of the original Airbnb homepage.
 
 
@@ -31,3 +31,5 @@ Acknowledgments
 Airbnb for the inspiration and design.
 Tailwind CSS and Bootstrap for the amazing frameworks.
 The Tailwind CSS and Bootstrap communities for their help and support!
+
+AUTHOR: PRINCY
